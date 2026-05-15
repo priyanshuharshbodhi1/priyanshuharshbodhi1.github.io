@@ -1,19 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
   <title id="title">Dreamsite.me mark</title>
-  <desc id="desc">A sleek D-shaped portal with a red launch signal.</desc>
-  <defs>
-    <linearGradient id="paper" x1="24" x2="78" y1="14" y2="82" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fffaf1"/>
-      <stop offset="1" stop-color="#e9dfcd"/>
-    </linearGradient>
-    <linearGradient id="flare" x1="26" x2="76" y1="70" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ff6a46"/>
-      <stop offset="1" stop-color="#e94b2f"/>
-    </linearGradient>
-  </defs>
-  <rect x="2.5" y="2.5" width="91" height="91" rx="22" fill="#181713" stroke="#fffaf1" stroke-opacity=".72" stroke-width="5"/>
-  <path fill="url(#paper)" d="M28 22h19c18.9 0 31 10.7 31 26.1C78 64 65.8 74 47.1 74H28V22Zm13.5 12.4v27.2h5.8c10.4 0 16.6-5.1 16.6-13.5 0-8.6-6.2-13.7-16.6-13.7h-5.8Z"/>
-  <path fill="url(#flare)" d="M19 69.2 69.2 19l7.8 7.8L26.8 77z"/>
-  <path fill="#181713" d="m29.2 69.8 40.6-40.6 3.9 3.9-40.6 40.6z" opacity=".72"/>
-  <path fill="#fffaf1" d="M73.4 15.2 80.8 8l2.2 10 9.8 2.6-7.4 7.1-2.2-10z"/>
+  <desc id="desc">A simple lowercase d period mark on a lavender tile.</desc>
+  <rect width="96" height="96" fill="#a58de8"/>
+  <text x="10" y="72" fill="#141414" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="75" font-weight="900">d</text>
+  <rect x="76" y="62" width="14" height="14" fill="#141414"/>
 </svg>
