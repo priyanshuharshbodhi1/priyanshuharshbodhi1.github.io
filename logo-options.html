@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dreamsite Deel-Inspired Logo Options</title>
+    <style>
+      :root {
+        --blue: #1769ff;
+        --blue-deep: #0b43c7;
+        --ink: #111318;
+        --paper: #f5f7fb;
+        --white: #ffffff;
+        --line: rgba(17, 19, 24, 0.12);
+        --muted: #666f7d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at 20% 0%, rgba(23, 105, 255, 0.12), transparent 32rem),
+          linear-gradient(135deg, #ffffff 0%, var(--paper) 64%, #eef3ff 100%);
+        color: var(--ink);
+        font-family: "Avenir Next", Manrope, "Helvetica Neue", Arial, sans-serif;
+      }
+
+      main {
+        min-height: 100svh;
+        padding: 44px;
+      }
+
+      h1 {
+        max-width: 980px;
+        margin: 0 0 12px;
+        font-size: clamp(44px, 5.8vw, 88px);
+        line-height: 0.92;
+        letter-spacing: 0;
+      }
+
+      .intro {
+        max-width: 780px;
+        margin: 0 0 34px;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.55;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .option {
+        min-height: 310px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.82);
+        box-shadow: 0 22px 60px rgba(27, 55, 112, 0.08);
+        padding: 26px;
+        display: grid;
+        align-content: space-between;
+      }
+
+      .option.dark {
+        background: var(--ink);
+        color: var(--white);
+        box-shadow: 0 26px 70px rgba(17, 19, 24, 0.18);
+      }
+
+      .label {
+        margin: 0 0 28px;
+        color: var(--blue);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .dark .label {
+        color: #8db4ff;
+      }
+
+      .logo-lockup {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+      }
+
+      .mark {
+        width: 54px;
+        height: 54px;
+        flex: 0 0 auto;
+      }
+
+      .wordmark {
+        color: var(--blue);
+        font-size: clamp(34px, 3.4vw, 48px);
+        font-weight: 950;
+        letter-spacing: -0.055em;
+        line-height: 0.9;
+      }
+
+      .dark .wordmark {
+        color: #ffffff;
+      }
+
+      .wordmark span {
+        color: var(--blue-deep);
+      }
+
+      .dark .wordmark span {
+        color: #8db4ff;
+      }
+
+      .note {
+        margin: 26px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.48;
+      }
+
+      .dark .note {
+        color: rgba(255, 255, 255, 0.66);
+      }
+
+      .small-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 24px;
+        border-top: 1px solid var(--line);
+        padding-top: 18px;
+      }
+
+      .dark .small-row {
+        border-color: rgba(255, 255, 255, 0.14);
+      }
+
+      .favicon {
+        width: 34px;
+        height: 34px;
+      }
+
+      .url {
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .dark .url {
+        color: rgba(255, 255, 255, 0.64);
+      }
+
+      @media (max-width: 1120px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 720px) {
+        main {
+          padding: 24px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Dreamsite, in the Deel direction</h1>
+      <p class="intro">
+        These are not copies of Deel. They borrow the same category language: compact lowercase wordmark,
+        rounded confidence, bright blue, and a simple icon that can work in a browser tab.
+      </p>
+
+      <section class="grid" aria-label="Deel-inspired Dreamsite logo options">
+        <article class="option">
+          <div>
+            <p class="label">S / Rounded Wordmark</p>
+            <div class="logo-lockup">
+              <svg class="mark" viewBox="0 0 96 96" aria-label="Rounded D mark">
+                <rect width="96" height="96" rx="24" fill="#1769ff"/>
+                <path d="M31 26h18c17 0 29 11 29 22s-12 22-29 22H31V26Zm13 13v18h6c8 0 14-4 14-9s-6-9-14-9h-6Z" fill="#fff"/>
+                <circle cx="68" cy="66" r="7" fill="#0b43c7"/>
+              </svg>
+              <div class="wordmark">dream<span>site</span></div>
+            </div>
+            <p class="note">Closest to the Deel vibe: friendly lowercase, bold blue, and an icon that feels like a domain dot.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="24" fill="#1769ff"/><path d="M31 26h18c17 0 29 11 29 22s-12 22-29 22H31V26Zm13 13v18h6c8 0 14-4 14-9s-6-9-14-9h-6Z" fill="#fff"/><circle cx="68" cy="66" r="7" fill="#0b43c7"/></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+
+        <article class="option dark">
+          <div>
+            <p class="label">T / One-Line Studio</p>
+            <div class="logo-lockup">
+              <svg class="mark" viewBox="0 0 96 96" aria-label="Studio D mark">
+                <rect width="96" height="96" rx="48" fill="#1769ff"/>
+                <path d="M30 30h20c14 0 24 8 24 18S64 66 50 66H30V30Zm13 12v12h8c5 0 9-2 9-6s-4-6-9-6h-8Z" fill="#fff"/>
+              </svg>
+              <div class="wordmark">dreamsite</div>
+            </div>
+            <p class="note">The cleanest and most startup-like. Strong for investor, AWS, and YC-facing material.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="48" fill="#1769ff"/><path d="M30 30h20c14 0 24 8 24 18S64 66 50 66H30V30Zm13 12v12h8c5 0 9-2 9-6s-4-6-9-6h-8Z" fill="#fff"/></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+
+        <article class="option">
+          <div>
+            <p class="label">U / Site Loop</p>
+            <div class="logo-lockup">
+              <svg class="mark" viewBox="0 0 96 96" aria-label="Site loop mark">
+                <rect width="96" height="96" rx="25" fill="#1769ff"/>
+                <path d="M28 51c0-14 10-24 24-24h16v14H53c-6 0-10 4-10 10s4 10 10 10h15v14H52c-14 0-24-10-24-24Z" fill="#fff"/>
+                <path d="M53 41h15v20H53c-6 0-10-4-10-10s4-10 10-10Z" fill="#0b43c7"/>
+              </svg>
+              <div class="wordmark">dreamsite</div>
+            </div>
+            <p class="note">More ownable: a D, site window, and loop shape in one. It avoids looking too close to Deel.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="25" fill="#1769ff"/><path d="M28 51c0-14 10-24 24-24h16v14H53c-6 0-10 4-10 10s4 10 10 10h15v14H52c-14 0-24-10-24-24Z" fill="#fff"/><path d="M53 41h15v20H53c-6 0-10-4-10-10s4-10 10-10Z" fill="#0b43c7"/></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+
+        <article class="option">
+          <div>
+            <p class="label">V / Domain Dot</p>
+            <div class="logo-lockup">
+              <svg class="mark" viewBox="0 0 96 96" aria-label="Domain dot mark">
+                <rect width="96" height="96" rx="24" fill="#1769ff"/>
+                <path d="M26 48c0-14 10-24 24-24h20v48H50c-14 0-24-10-24-24Zm14 0c0 6 4 10 10 10h6V38h-6c-6 0-10 4-10 10Z" fill="#fff"/>
+                <circle cx="70" cy="70" r="6" fill="#fff"/>
+              </svg>
+              <div class="wordmark">dreamsite<span>.me</span></div>
+            </div>
+            <p class="note">Most domain-native. The dot is part of the identity, useful because the brand includes .me.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="24" fill="#1769ff"/><path d="M26 48c0-14 10-24 24-24h20v48H50c-14 0-24-10-24-24Zm14 0c0 6 4 10 10 10h6V38h-6c-6 0-10 4-10 10Z" fill="#fff"/><circle cx="70" cy="70" r="6" fill="#fff"/></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+
+        <article class="option dark">
+          <div>
+            <p class="label">W / Blue Badge</p>
+            <div class="logo-lockup">
+              <svg class="mark" viewBox="0 0 96 96" aria-label="Blue badge mark">
+                <rect width="96" height="96" rx="26" fill="#ffffff"/>
+                <path d="M27 27h20c16 0 27 9 27 21S63 69 47 69H27V27Zm13 12v18h7c8 0 13-4 13-9s-5-9-13-9h-7Z" fill="#1769ff"/>
+                <path d="M69 27v42" stroke="#1769ff" stroke-width="9" stroke-linecap="round"/>
+              </svg>
+              <div class="wordmark">dream<span>site</span></div>
+            </div>
+            <p class="note">Bolder and more distinctive. The vertical stroke hints at a page or cursor without becoming busy.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="26" fill="#fff"/><path d="M27 27h20c16 0 27 9 27 21S63 69 47 69H27V27Zm13 12v18h7c8 0 13-4 13-9s-5-9-13-9h-7Z" fill="#1769ff"/><path d="M69 27v42" stroke="#1769ff" stroke-width="9" stroke-linecap="round"/></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+
+        <article class="option">
+          <div>
+            <p class="label">X / Wordmark Only</p>
+            <div class="logo-lockup">
+              <div class="wordmark" style="font-size: clamp(42px, 4.6vw, 66px)">dreamsite</div>
+            </div>
+            <p class="note">No symbol in the main logo. Very close to the Deel feeling: confident typography first, icon only for small places.</p>
+          </div>
+          <div class="small-row">
+            <svg class="favicon" viewBox="0 0 96 96"><rect width="96" height="96" rx="24" fill="#1769ff"/><text x="24" y="66" fill="#fff" font-family="Avenir Next, Arial, sans-serif" font-size="54" font-weight="950">d</text></svg>
+            <span class="url">dreamsite.me</span>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
