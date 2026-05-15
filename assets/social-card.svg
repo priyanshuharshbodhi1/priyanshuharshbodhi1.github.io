@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dreamsite.me social preview</title>
+  <desc id="desc">Dreamsite.me brand card for social previews.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1200" y1="0" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181713"/>
+      <stop offset=".58" stop-color="#2f5544"/>
+      <stop offset="1" stop-color="#e94b2f"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="matrix(520 0 0 420 420 270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf1" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fffaf1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#light)"/>
+  <path fill="#fffaf1" d="M112 128h126c120 0 196 68 196 166 0 101-77 164-195 164H112V128Zm80 74v182h43c66 0 105-34 105-90 0-58-39-92-105-92h-43Z"/>
+  <path fill="#e94b2f" d="M72 429 393 108l48 48-321 321z"/>
+  <path fill="#181713" d="m132 429 260-260 24 24-260 260z" opacity=".72"/>
+  <text x="520" y="284" fill="#fffaf1" font-family="Georgia, serif" font-size="96">Dreamsite.me</text>
+  <text x="524" y="360" fill="#fffaf1" font-family="Arial, sans-serif" font-size="34" opacity=".82">AI-powered websites for businesses with no online presence</text>
+</svg>
