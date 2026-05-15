@@ -54,5 +54,5 @@ form.addEventListener("submit", (event) => {
   );
 
   note.textContent = "Opening your email app with the site brief.";
-  window.location.href = `mailto:hello@dreamsite.me?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:priyanshu@dreamsite.me?subject=${subject}&body=${body}`;
 });
