@@ -73,23 +73,23 @@ if (form && note) {
     const action = data.get("action");
     const notes = data.get("notes").trim();
 
-    const subject = encodeURIComponent(`Dreamsite plan for ${business}`);
+    const subject = encodeURIComponent(`Dreamsite platform setup for ${business}`);
     const body = encodeURIComponent(
       [
         "Hi Dreamsite.me,",
         "",
-        "I would like a first site plan.",
+        "I would like to configure Dreamsite for this business.",
         "",
         `Business type: ${business}`,
         `City or area: ${location}`,
         `Main customer action: ${action}`,
         `Notes: ${notes || "No notes yet."}`,
         "",
-        "Please send me a practical launch outline."
+        "Please prepare the platform setup outline."
       ].join("\n")
     );
 
-    note.textContent = "Opening your email app with the site brief.";
+    note.textContent = "Opening your email app with the platform brief.";
     window.location.href = `mailto:priyanshu@dreamsite.me?subject=${subject}&body=${body}`;
   });
 }

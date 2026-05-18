@@ -1,7 +1,7 @@
 {
-  "name": "Dreamsite.me",
+  "name": "Dreamsite",
   "short_name": "Dreamsite",
-  "description": "AI-powered websites for businesses with no online presence.",
+  "description": "AI-powered local presence platform for Indian businesses.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
